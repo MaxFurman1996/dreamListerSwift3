@@ -162,6 +162,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         }
     }
     
+    //To generate 4 items(cells)
     func generateTestData(){
         let item1 = Item(context: context)
         item1.name = "macbook pro"
